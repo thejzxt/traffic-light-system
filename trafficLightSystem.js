@@ -1,15 +1,14 @@
-// Smart Traffic Light System
+
 
 function trafficLightSystem(currentSignal, isEmergencyVehicleApproaching) {
 
-  // Check emergency vehicle
   if (isEmergencyVehicleApproaching) {
 
     return "IMMEDIATE GREEN";
 
   }
 
-  // Normal traffic signal handling
+
   switch (currentSignal) {
 
     case "RED":
