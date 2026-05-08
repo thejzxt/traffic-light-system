@@ -1,5 +1,3 @@
-
-
 function trafficLightSystem(currentSignal, isEmergencyVehicleApproaching) {
 
   if (isEmergencyVehicleApproaching) {
